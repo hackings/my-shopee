@@ -90,11 +90,6 @@ GEM
     rake (10.1.0)
     rdoc (3.12.2)
       json (~> 1.4)
-    sass (3.2.10)
-    sass-rails (4.0.0)
-      railties (>= 4.0.0.beta, < 5.0)
-      sass (>= 3.1.10)
-      sprockets-rails (~> 2.0.0)
     sdoc (0.3.20)
       json (>= 1.1.3)
       rdoc (~> 3.10)
@@ -132,13 +127,11 @@ PLATFORMS
 
 DEPENDENCIES
   active_model_serializers
-  coffee-rails (~> 4.0.0)
   ember-rails
   handlebars-source
   jbuilder (~> 1.2)
   jquery-rails
   rails (= 4.0.0)
-  sass-rails (~> 4.0.0)
   sdoc
   sqlite3
   turbolinks
