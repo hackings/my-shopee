@@ -1,3 +1,3 @@
-MyShopee.Store = DS.Store.extend({
+Myshopee.Store = DS.Store.extend({
   revision: 11
 });

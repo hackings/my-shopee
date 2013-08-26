@@ -1,0 +1,15 @@
+<div class="navbar navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container-fluid">
+      <div class="brand">{{#linkTo "items"}}Items{{/linkTo}}</div>
+      <div class="btn-group pull-right">
+        {{#linkTo "items.new" class="btn"}}<i class="icon-plus-sign"></i> Add Item{{/linkTo}}
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container-fluid" id="main">
+  <div class="row-fluid">
+    {{outlet}}
+  </div>
+</div>

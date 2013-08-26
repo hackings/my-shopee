@@ -19,6 +19,6 @@
 //= require ember-data
 //= require_self
 //= require my_shopee
-MyShopee = Ember.Application.create();
+Myshopee = Ember.Application.create();
 
 //= require_tree .
